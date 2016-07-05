@@ -10,6 +10,7 @@ export const routes = [
     { path: 'board', component: FingerboardComponent }
 ];
 
+//noinspection TypeScriptValidateTypes
 export const APP_ROUTER_PROVIDERS = [
     provideRouter(routes)
 ];
